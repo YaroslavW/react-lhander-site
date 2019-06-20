@@ -34,46 +34,46 @@
     ]
   },
   "features":{
-    "supcaption":"Features",
-    "caption":"Great features you'll love.",
-    "text":"Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+    "supcaption":"Y-Features",
+    "caption":"Y-Great features you'll love.",
+    "text":"Y-Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
     "items":[
       {
-        "class-icon":"icon-window",
-        "caption":"Fully Resposive",
+        "class_icon":"icon-window",
+        "caption":"Y-Fully Resposive",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
-        "class-icon":"icon-eye",
-        "caption":"Retina Ready",
+        "class_icon":"icon-eye",
+        "caption":"Y-Retina Ready",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
-        "class-icon":"icon-paint-brush",
-        "caption":"Stylish Design",
+        "class_icon":"icon-paint-brush",
+        "caption":"Y-Stylish Design",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
-        "class-icon":"icon-file",
-        "caption":"Clean Code",
+        "class_icon":"icon-file",
+        "caption":"Y-Clean Code",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
-        "class-icon":"icon-layers",
-        "caption":"Easy To Customize",
+        "class_icon":"icon-layers",
+        "caption":"Y-Easy To Customize",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
-        "class-icon":"icon-gift",
-        "caption":"Free of Charge",
+        "class_icon":"icon-gift",
+        "caption":"Y-Free of Charge",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       }
     ]
     },
     "pricing":{
-      "supcaption":"Our Pricing",
-      "caption":"Pick the best plan for you.",
-      "text":"Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+      "supcaption":"Y-Our Pricing",
+      "caption":"Y-Pick the best plan for you.",
+      "text":"Y-Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
       "items":[
         {
           "class":"price-block",
@@ -81,12 +81,22 @@
           "month":"Per month",
           "meta":"Billed Annually.",
           "features":[
-            {
-              "Storage":"3GB",
-              "Bandwidth":"10GB",
-              "Databases":"5",
-              "Email Accounts":"30"
-            }
+        {
+          "name": "Storage",
+          "value": "3 GB"
+        },
+        {
+          "name": "Bandwidth",
+          "value": "10 GB"
+        },
+        {
+          "name": "Databases",
+          "value": "5"
+        },
+        {
+          "name": "Email",
+          "value": "30"
+        }
           ]
         },
         {
@@ -95,12 +105,22 @@
           "month":"Per month",
           "meta":"Billed Annually.",
           "features":[
-            {
-              "Storage": "5GB",
-              "Bandwidth": "15GB",
-              "Databases": "7",
-              "Email Accounts": "40"
-            }
+        {
+          "name": "Storage",
+          "value": "5 GB"
+        },
+        {
+          "name": "Bandwidth",
+          "value": "15 GB"
+        },
+        {
+          "name": "Databases",
+          "value": "7"
+        },
+        {
+          "name": "Email",
+          "value": "40"
+        }
           ]
         },
         {
@@ -110,10 +130,20 @@
           "meta":"Billed Annually.",
           "features":[
             {
-              "Storage": "10GB",
-              "Bandwidth": "30GB",
-              "Databases": "15",
-              "Email Accounts": "60" 
+              "name":"Storage",
+              "value":"10 GB"
+            },
+            {
+              "name": "Bandwidth",
+              "value": "30 GB"
+            },
+            {
+              "name":"Databases",
+              "value": "15"
+            },
+            {
+              "name": "Email",
+              "value": "60"
             }
           ]
         },
@@ -123,12 +153,22 @@
           "month":"Per month",
           "meta":"Billed Annually.",
           "features":[
-            {
-              "Storage": "20GB",
-              "Bandwidth": "40GB",
-              "Databases": "25",
-              "Email Accounts": "100"
-            }
+        {
+          "name": "Storage",
+          "value": "20 GB"
+        },
+        {
+          "name": "Bandwidth",
+          "value": "40 GB"
+        },
+        {
+          "name": "Databases",
+          "value": "25"
+        },
+        {
+          "name":"Email",
+          "value": "100"
+        }
           ]
         }
       ]

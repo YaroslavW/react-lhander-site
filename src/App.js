@@ -40,8 +40,8 @@ class App extends Component {
         <Header />
         <Intro data={this.state.siteData.intro} />
         <Process data={this.state.siteData.process} />
-        <Features />
-        <Pricing />
+        <Features data={this.state.siteData.features} />
+        <Pricing data={this.state.siteData.pricing}/>
         <Testimonials />
         <Faq />
         <Cta />
