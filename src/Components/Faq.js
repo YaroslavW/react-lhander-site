@@ -51,7 +51,7 @@ const Faq = ({data}) => {
               {/* Simply type	the promocode in the box labeled “Promo Code” when placing your order. 				 */}
             </p>
 
-            <ul class="stores" style={{ listStyleType: "none" }}>
+            <ul className="stores" style={{ listStyleType: "none" }}>
               <Button
                 classBlock="action"
 								link="http://abcinblog.blogspot.com/"

@@ -7,6 +7,7 @@ const Cta = ({data}) => {
     var text = data.text;
     var item = data.buttons.map((val, index) => (
       <Button
+        key={index}
         classBlock={val.blockName}
         link="http://abcinblog.blogspot.com/"
         classI={val.icon}
