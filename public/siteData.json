@@ -174,7 +174,7 @@
       ]
     },
     "testimonials":{
-      "caption":"Hear What Are Clients Say.",
+      "caption":"Y-Hear What Are Clients Say.",
       "slider":[
         {
           "img": "images/avatars/avatar-1.jpg",
@@ -192,32 +192,32 @@
       ]
     },
     "faq":{
-      "supcaption":"Faq",
-      "caption":"Questions and Answers.",
+      "supcaption":"Y-Faq",
+      "caption":"Y-Questions and Answers.",
       "text":"Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
       "items":[
         {
-          "title":"What are the security features?",
+          "title":"Y-What are the security features?",
           "text":"Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
         },
         {
-          "title": "How can I update my user profile?",
+          "title": "Y-How can I update my user profile?",
           "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
         },
         {
-          "title": "What features are not included in the free version?",
+          "title": "Y-What features are not included in the free version?",
           "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
         },
         {
-          "title": "Can I upgrade my account from Starter to Premium?",
+          "title": "Y-Can I upgrade my account from Starter to Premium?",
           "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
         },
         {
-          "title": "Where can I found all my uploads?",
+          "title": "Y-Where can I found all my uploads?",
           "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
         },
         {
-          "title": "How long can I use the free trial version?",
+          "title": "Y-How long can I use the free trial version?",
           "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
         }
       ]
@@ -227,16 +227,19 @@
       "text":"Download the app now. Available on the:",
       "buttons":[
         {
+          "blockName":"app-store",
           "icon":"icon ion-social-apple",
-          "title":" App Store"
+          "title":"Y- App Store"
         },
         {
+          "blockName": "play-store",
           "icon": "icon ion-social-android",
-          "title": "Play Store"
+          "title": "Y-Play Store"
         },
         {
+          "blockName": "windows-store",
           "icon": "icon ion-social-windows",
-          "title": "Win Store"
+          "title": "y-Win Store"
         }
       ]
     }

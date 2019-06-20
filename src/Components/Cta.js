@@ -1,38 +1,32 @@
 import React from 'react';
+import Button from './Button';
 
-const Cta = () => {
+const Cta = ({data}) => {
+  if(data){
+    var caption = data.caption;
+    var text = data.text;
+    var item = data.buttons.map((val, index) => (
+      <Button
+        classBlock={val.blockName}
+        link="http://abcinblog.blogspot.com/"
+        classI={val.icon}
+        name={val.title}
+      />
+    ));
+  }
   return (
     <section id="cta">
       <div className="row cta-content">
         <div className="col-twelve">
           <h1 className="h01">
-            Get started now. Try Lhander free for 30 days.
+            {caption}
           </h1>
 
-          <p className="lead">Download the app now. Available on the:</p>
+          <p className="lead">{text}</p>
 
           <ul className="stores">
-            <li className="app-store">
-              {/*  eslint-disable-next-line */}
-              <a href="#" className="button round large" title="">
-                <i className="icon ion-social-apple" />
-                App Store
-              </a>
-            </li>
-            <li className="play-store">
-              {/*  eslint-disable-next-line */}
-              <a href="#" className="button round large" title="">
-                <i className="icon ion-social-android" />
-                Play Store
-              </a>
-            </li>
-            <li className="windows-store">
-              {/*  eslint-disable-next-line */}
-              <a href="#" className="button round large" title="">
-                <i className="icon ion-social-windows" />
-                Win Store
-              </a>
-            </li>
+
+          {item}
           </ul>
         </div>
       </div>

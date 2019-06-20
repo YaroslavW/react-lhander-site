@@ -41,10 +41,10 @@ class App extends Component {
         <Intro data={this.state.siteData.intro} />
         <Process data={this.state.siteData.process} />
         <Features data={this.state.siteData.features} />
-        <Pricing data={this.state.siteData.pricing}/>
-        <Testimonials />
-        <Faq />
-        <Cta />
+        <Pricing data={this.state.siteData.pricing} />
+        <Testimonials data={this.state.siteData.testimonials} />
+        <Faq data={this.state.siteData.faq} />
+        <Cta data={this.state.siteData.cta}  />
         <Footer />
       </div>
     );

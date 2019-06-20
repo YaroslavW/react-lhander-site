@@ -1,12 +1,30 @@
 import React from 'react';
 
-const Testimonials = () => {
+const Testimonials = ({data}) => {
+   if(data){
+      var caption = data.caption;
+      var slider = data.slider.map((item, index) => (
+        <li key={index}>
+          <div className="testimonial-author">
+            <img src={item.img} alt="Author pic" />
+            <div className="author-info">
+              {item.author}
+              <span className="position">{item.work}</span>
+            </div>
+          </div>
+
+          <p>
+            {item.text}
+          </p>
+        </li>
+      ));
+   }
   return (
    <section id="testimonials">
 
    	<div className="row">
    		<div className="col-twelve">
-   			<h2 className="h01">Hear What Are Clients Say.</h2>
+   			<h2 className="h01">{caption}</h2>
    		</div>   		
    	</div>   	
 
@@ -15,8 +33,8 @@ const Testimonials = () => {
          <div id="testimonial-slider" className="flexslider">
 
             <ul className="slides">
-
-               <li>
+{slider}
+               {/* <li>
                	<div className="testimonial-author">
                     	<img src="images/avatars/avatar-1.jpg" alt="Author pic"/>
                     	<div className="author-info">
@@ -48,7 +66,7 @@ const Testimonials = () => {
                   nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.    
                   </p>
                                          
-               </li> 
+               </li>  */}
 
             </ul> 
 
