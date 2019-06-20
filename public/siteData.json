@@ -1,32 +1,34 @@
 {
   "intro": {
-    "supcaption":"Hello welcome to lhander.",
-    "caption":"Our awesome app will make your life a lot easier.",
-    "btn-caption":"Learn More",
-    "video-src":"http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=faec09"
+    "supcaption":"Y-Hello welcome to lhander.",
+    "caption":"Y-Our awesome app will make your life a lot easier.",
+    "btn_caption":"Y-Learn More"
   },
   "process":{
-    "supcaption":"Process",
-    "caption":"How it works?",
-    "items":[
+    "supcaption":"Y-Process",
+    "caption":"Y-How it works?",
+    "text":"Y-Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+    "items_left":[
       {
-        "data-item":"1",
-        "caption":"Sign Up",
+        "data_item":"1",
+        "caption":"Y-Sign Up",
         "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
       },
       {
-        "data-item":"2",
-        "caption":"Upload",
+        "data_item":"2",
+        "caption":"Y-Upload",
+        "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
+      }
+    ],
+      "items_right":[
+        {
+        "data_item":"3",
+        "caption":"Y-Create",
         "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
       },
       {
-        "data-item":"3",
-        "caption":"Create",
-        "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
-      },
-      {
-        "data-item":"4",
-        "caption":"Publish",
+        "data_item":"4",
+        "caption":"Y-Publish",
         "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
       }
     ]

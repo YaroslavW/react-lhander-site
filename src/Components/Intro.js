@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Intro = () => {
+const Intro = ({data}) => {
+  if(data){
+    var supcaption = data.supcaption;
+    var caption =data.caption;
+    var btnCaption = data.btn_caption;
+  }
   return (
     <section id="intro">
       <div className="shadow-overlay" />
@@ -14,11 +19,15 @@ const Intro = () => {
               </a>
             </div>
 
-            <h5>Hello welcome to lhander.</h5>
-            <h1>Our awesome app will make your life a lot easier.</h1>
+            <h5>{supcaption}</h5>
+            <h1>{caption}</h1>
 
-            <a className="button stroke smoothscroll" href="#process" title="">
-              Learn More
+            <a
+              className="button stroke smoothscroll"
+              href="#process"
+              title=""
+            >
+              {btnCaption}
             </a>
           </div>
         </div>

@@ -1,16 +1,33 @@
 import React from 'react';
 
-const Process = () => {
+const Process = ({data}) => {
+	if(data){
+		var supcaption = data.supcaption;
+		var caption = data.caption;
+		var text = data.text;
+		var left_item = data.items_left.map((item, index) => (
+      <div className="item" data-item={item.data_item} key={index}>
+        <h5>{item.caption}</h5>
+        <p>{item.text}</p>
+      </div>
+    ));
+			var right_item = data.items_right.map((item, index) => (
+				<div className="item" data-item={item.data_item} key={index}>
+					<h5>{item.caption}</h5>
+					<p>{item.text}</p>
+				</div>
+			));
+	}
   return (
    <section id="process">  
 
    	<div className="row section-intro">
    		<div className="col-twelve with-bottom-line">
 
-   			<h5>Process</h5>
-   			<h1>How it works?</h1>
+   			<h5>{supcaption}</h5>
+   			<h1>{caption}</h1>
 
-   			<p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<p className="lead">{text}</p>
 
    		</div>   		
    	</div>
@@ -19,7 +36,7 @@ const Process = () => {
 
    		<div className="left-side">
 
-   			<div className="item" data-item="1">
+   			{/* <div className="item" data-item="1">
 
    				<h5>Sign Up</h5>
 
@@ -33,13 +50,13 @@ const Process = () => {
 
 	   			<p>Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate.</p>
    					
-   			</div>
-   				
+   			</div> */}
+					 {left_item}
    		</div> 
    		
    		<div className="right-side">
    				
-   			<div className="item" data-item="3">
+   			{/* <div className="item" data-item="3">
 
    				<h5>Create</h5>
 
@@ -53,7 +70,8 @@ const Process = () => {
 
    				<p>Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate.</p>
    					
-   			</div>
+				 </div> */}
+				 {right_item}
 
    		</div>  
 
