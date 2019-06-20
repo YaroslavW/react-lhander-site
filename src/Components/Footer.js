@@ -32,7 +32,7 @@ const Footer = () => {
               </li>
               <li>
                 {/*  eslint-disable-next-line */}
-                <a href="#">FAQ</a>
+                <a href="#faq">FAQ</a>
               </li>
               <li>
                 {/*  eslint-disable-next-line */}

@@ -18,6 +18,7 @@ const Pricing = () => {
 
       <div className="row pricing-content">
         <div className="pricing-tables block-1-4 group">
+          
           <div className="bgrid">
             <div className="price-block">
               <div className="top-part">
