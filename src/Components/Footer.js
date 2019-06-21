@@ -1,6 +1,25 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({data}) => {
+  if(data){
+    var street = data.address.street;
+    var city = data.address.city;
+    var region = data.address.region;
+    var zip = data.address.zip;
+    var state = data.address.state;
+    var email = data.address.email;
+    var phone = data.address.phone;
+    var site_link = data.site_links.map((item, index) => (
+      <li key={index}>
+        <a href={item.link}>{item.name}</a>
+      </li>
+    ));
+        var social_link = data.social_links.map((item, index) => (
+          <li key={index}>
+            <a href={item.link}>{item.name}</a>
+          </li>
+        ));
+  }
   return (
     <footer>
       <div className="footer-main">
@@ -9,11 +28,11 @@ const Footer = () => {
             <div className="footer-logo" />
 
             <p>
-              1600 Amphitheatre Parkway
+             {street}
               <br />
-              Mountain View, CA 94043 US
+              {city}, {region} {zip} {state}
               <br />
-              info@lhander.com &nbsp; +123-456-789
+              {email} &nbsp; {phone}
             </p>
           </div>
 
@@ -21,27 +40,7 @@ const Footer = () => {
             <h4>Site Links</h4>
 
             <ul>
-              <li>
-                {" "}
-                {/*  eslint-disable-next-line */}
-                <a href="#">About Us</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Blog</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#faq">FAQ</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Terms</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Privacy Policy</a>
-              </li>
+             {site_link}
             </ul>
           </div>
 
@@ -49,26 +48,8 @@ const Footer = () => {
             <h4>Social</h4>
 
             <ul>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Twitter</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Facebook</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Dribbble</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Google+</a>
-              </li>
-              <li>
-                {/*  eslint-disable-next-line */}
-                <a href="#">Skype</a>
-              </li>
+             {social_link} 
+              
             </ul>
           </div>
 
@@ -103,7 +84,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-twelve">
             <div className="copyright">
-              <span>© Copyright Lhander 2016.</span>
+              <span>Kolesnikov Yaroslav © Copyright Lhander 2019.</span>
               <span>
                 Design by <a href="http://www.styleshout.com/">styleshout</a>
               </span>

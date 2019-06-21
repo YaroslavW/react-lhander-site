@@ -37,15 +37,15 @@ class App extends Component {
     // console.log(this.state.siteData)
     return (
       <div>
-        <Header />
+        <Header data={this.state.siteData.menu} />
         <Intro data={this.state.siteData.intro} />
         <Process data={this.state.siteData.process} />
         <Features data={this.state.siteData.features} />
         <Pricing data={this.state.siteData.pricing} />
         <Testimonials data={this.state.siteData.testimonials} />
         <Faq data={this.state.siteData.faq} />
-        <Cta data={this.state.siteData.cta}  />
-        <Footer />
+        <Cta data={this.state.siteData.cta} />
+        <Footer data={this.state.siteData.footer}  />
       </div>
     );
   }

@@ -1,6 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const Header = () => {
+const Header = ({ data }) => {
+  
+  if(data){
+        var nav = data.item.map((val, index) => (
+      <li className={val.classLi} key={index}>
+        <a className="smoothscroll" href={val.link} title="">
+          {val.title}
+        </a>
+      </li>
+        ));
+  }
   return (
     <header>
       <div className="row">
@@ -9,38 +19,7 @@ const Header = () => {
         </div>
         <nav id="main-nav-wrap">
           <ul className="main-navigation">
-            <li className="current">
-              <a className="smoothscroll" href="#intro" title="">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#process" title="">
-                Process
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#features" title="">
-                Features
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#pricing" title="">
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#faq" title="">
-                FAQ
-              </a>
-            </li>
-            {/*  eslint-disable-next-line */}
-            <li className="highlight with-sep">
-              {/*  eslint-disable-next-line */}
-              <a href="#" title="">
-                Sign Up
-              </a>
-            </li>
+            {nav}
           </ul>
         </nav>
         {/*  eslint-disable-next-line */}
