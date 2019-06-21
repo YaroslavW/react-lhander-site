@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import $ from "jquery";
+import React from 'react';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
 import Process from './Components/Process';
@@ -9,46 +8,24 @@ import Testimonials from './Components/Testimonials';
 import Faq from './Components/Faq';
 import Cta from './Components/Cta';
 import Footer from './Components/Footer';
+import Data from './siteData.json';
 
-class App extends Component {
-  state = {
-    siteData: {}
-  };
-  getSiteData() {
-    $.ajax({
-      url: "http://localhost:3000/siteData.json",
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        this.setState({ siteData: data });
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
+const App =()=> {
+const data = Data;
 
-  componentDidMount() {
-    this.getSiteData();
-  }
-
-  render() {
-    // console.log(this.state.siteData)
     return (
       <div>
-        <Header data={this.state.siteData.menu} />
-        <Intro data={this.state.siteData.intro} />
-        <Process data={this.state.siteData.process} />
-        <Features data={this.state.siteData.features} />
-        <Pricing data={this.state.siteData.pricing} />
-        <Testimonials data={this.state.siteData.testimonials} />
-        <Faq data={this.state.siteData.faq} />
-        <Cta data={this.state.siteData.cta} />
-        <Footer data={this.state.siteData.footer}  />
+        <Header data={data.menu} />
+        <Intro data={data.intro} />
+        <Process data={data.process} />
+        <Features data={data.features} />
+        <Pricing data={data.pricing} />
+        <Testimonials data={data.testimonials} />
+        <Faq data={data.faq} />
+        <Cta data={data.cta} />
+        <Footer data={data.footer} />
       </div>
     );
-  }
 };
 
 export default App;
