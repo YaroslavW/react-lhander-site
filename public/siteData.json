@@ -41,80 +41,80 @@
    
 }, 
   "intro": {
-    "supcaption":"Y-Hello welcome to lhander.",
-    "caption":"Y-Our awesome app will make your life a lot easier.",
-    "btn_caption":"Y-Learn More"
+    "supcaption":"Hello welcome to lhander.",
+    "caption":"Our awesome app will make your life a lot easier.",
+    "btn_caption":"Learn More"
   },
   "process":{
-    "supcaption":"Y-Process",
-    "caption":"Y-How it works?",
-    "text":"Y-Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+    "supcaption":"Process",
+    "caption":"How it works?",
+    "text":"Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
     "items_left":[
       {
         "data_item":"1",
-        "caption":"Y-Sign Up",
+        "caption":"Sign Up",
         "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
       },
       {
         "data_item":"2",
-        "caption":"Y-Upload",
+        "caption":"Upload",
         "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
       }
     ],
       "items_right":[
         {
         "data_item":"3",
-        "caption":"Y-Create",
+        "caption":"Create",
         "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
       },
       {
         "data_item":"4",
-        "caption":"Y-Publish",
+        "caption":"Publish",
         "text":"Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate."
       }
     ]
   },
   "features":{
-    "supcaption":"Y-Features",
-    "caption":"Y-Great features you'll love.",
-    "text":"Y-Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+    "supcaption":"Features",
+    "caption":"Great features you'll love.",
+    "text":"Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
     "items":[
       {
         "class_icon":"icon-window",
-        "caption":"Y-Fully Resposive",
+        "caption":"Fully Resposive",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
         "class_icon":"icon-eye",
-        "caption":"Y-Retina Ready",
+        "caption":"Retina Ready",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
         "class_icon":"icon-paint-brush",
-        "caption":"Y-Stylish Design",
+        "caption":"Stylish Design",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
         "class_icon":"icon-file",
-        "caption":"Y-Clean Code",
+        "caption":"Clean Code",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
         "class_icon":"icon-layers",
-        "caption":"Y-Easy To Customize",
+        "caption":"Easy To Customize",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       },
       {
         "class_icon":"icon-gift",
-        "caption":"Y-Free of Charge",
+        "caption":"Free of Charge",
         "text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
       }
     ]
   },
   "pricing":{
-    "supcaption":"Y-Our Pricing",
-    "caption":"Y-Pick the best plan for you.",
-    "text":"Y-Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+    "supcaption":"Our Pricing",
+    "caption":"Pick the best plan for you.",
+    "text":"Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
     "items":[
       {
         "class":"price-block",
@@ -215,7 +215,7 @@
     ]
   },
   "testimonials":{
-    "caption":"Y-Hear What Are Clients Say.",
+    "caption":"Hear What Are Clients Say.",
     "slider":[
       {
         "img": "images/avatars/avatar-1.jpg",
@@ -233,54 +233,54 @@
     ]
   },
   "faq":{
-    "supcaption":"Y-Faq",
-    "caption":"Y-Questions and Answers.",
+    "supcaption":"Faq",
+    "caption":"Questions and Answers.",
     "text":"Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
     "items":[
       {
-        "title":"Y-What are the security features?",
+        "title":"What are the security features?",
         "text":"Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
       },
       {
-        "title": "Y-How can I update my user profile?",
+        "title": "How can I update my user profile?",
         "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
       },
       {
-        "title": "Y-What features are not included in the free version?",
+        "title": "What features are not included in the free version?",
         "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
       },
       {
-        "title": "Y-Can I upgrade my account from Starter to Premium?",
+        "title": "Can I upgrade my account from Starter to Premium?",
         "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
       },
       {
-        "title": "Y-Where can I found all my uploads?",
+        "title": "Where can I found all my uploads?",
         "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
       },
       {
-        "title": "Y-How long can I use the free trial version?",
+        "title": "How long can I use the free trial version?",
         "text": "Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat."
       }
     ]
   },
   "cta":{
-    "caption":" Get started now. Try Lhander free for 30 days.",
+    "caption":"Get started now. Try Lhander free for 30 days.",
     "text":"Download the app now. Available on the:",
     "buttons":[
       {
         "blockName":"app-store",
         "icon":"icon ion-social-apple",
-        "title":"Y- App Store"
+        "title":" App Store"
       },
       {
-        "blockName": "play-store",
+        "blockName": "pla store",
         "icon": "icon ion-social-android",
-        "title": "Y-Play Store"
+        "title": "Play Store"
       },
       {
         "blockName": "windows-store",
         "icon": "icon ion-social-windows",
-        "title": "y-Win Store"
+        "title": "Win Store"
       }
     ]
   },

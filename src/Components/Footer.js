@@ -11,12 +11,18 @@ const Footer = ({data}) => {
     var phone = data.address.phone;
     var site_link = data.site_links.map((item, index) => (
       <li key={index}>
-        <a href={item.link}>{item.name}</a>
+        <a href={item.link} target="_blank" rel="noopener noreferrer">{item.name}</a>
       </li>
     ));
         var social_link = data.social_links.map((item, index) => (
           <li key={index}>
-            <a href={item.link}>{item.name}</a>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {item.name}
+            </a>
           </li>
         ));
   }
